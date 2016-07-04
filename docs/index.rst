@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Yoopa Manual
+Yoopa - Dokumentasi
 =================================
 
 Yoopa adalah *content management system* berbasis Drupal untuk laboratorium penelitian, subproyek dari Vidyanusa_ dari LSKK_.
@@ -31,12 +31,14 @@ Yoopa terdiri dari 5 komponen yaitu:
 
 5. **E-Learning LSKK** adalah produk yang memiliki konten pembelajaran dimana produk ini membutuhkan proses login terlebih dahulu untuk bisa diakses.
 
+Dokumentasi Yoopa ada di http://yoopa.readthedocs.io/id/latest/, yang merupakan hasil *build* otomatis dari repository GitHub dokumentasi kolaboratif di https://github.com/lskk/yoopa .
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
+   sejarah
 
 
 Indices and tables
