@@ -6,12 +6,14 @@
 Yoopa - Dokumentasi
 =================================
 
-Yoopa adalah *content management system* berbasis Drupal untuk laboratorium penelitian, subproyek dari Vidyanusa_ dari LSKK_.
-Sebenarnya Yoopa diimplementasikan sebagai seperangkat *Drupal modules* dan konfigurasi Drupal, jadi bukan CMS baru yang terpisah.  
+Yoopa adalah *content management system* berbasis Drupal untuk laboratorium penelitian, subproyek dari Vidyanusa_ dari `LSKK ITB`_.
+Sebenarnya Yoopa diimplementasikan sebagai seperangkat *Drupal modules* dan konfigurasi Drupal, jadi bukan CMS baru yang terpisah.
 
 Yoopa diprakarsai oleh `Putu Hendra McHen`_ (LinkedIn_), `Agus Seputra`_, dan `Artha Pico`_. Versi 2.0 dilanjutkan oleh `Hendy Irawan`_.
 
-.. _LSKK: http://www.lskk.org/
+Yoopa digunakan sebagai engine untuk website `LSKK ITB`_. 
+
+.. _LSKK ITB: http://www.lskk.org/
 .. _Vidyanusa: http://vidyanusa.lskk.ee.itb.ac.id/
 .. _Putu Hendra McHen: https://plus.google.com/102612714897648765625
 .. _LinkedIn: https://www.linkedin.com/in/putu-hendra-mchen-0a800474
@@ -39,6 +41,8 @@ Contents:
    :maxdepth: 2
 
    sejarah
+   instalasi
+   kustomisasi-dasar
 
 
 Indices and tables
