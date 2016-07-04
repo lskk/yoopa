@@ -81,12 +81,21 @@ Bila *source code* situs sudah ada, contoh *source code* website http://www.lskk
 1. Gunakan TortoiseGit_ untuk meng-*clone* repository website Yoopa yang diinginkan.
     Misal, buka https://github.com/lskk/lskk.org, dari situ Anda akan mendapatkan Clone URL-nya yaitu https://github.com/lskk/lskk.org.git
 2. Clone ke folder di dalam ``C:\xampp\htdocs``, misalnya ``C:\xampp\htdocs\lskk.org``, lalu pindahkan semua isi folder ``drupal-8.x`` tadi ke folder tersebut.
-3. Tentukan bagaimana ingin mengakses website tersebut di local, misalnya ``lskk.org.amanahwin``.
+4. Buka *Command Prompt*, lalu masuk ke folder website Yoopa/Drupal Anda, contoh: ::
+
+    C:
+    cd \xampp\htdocs\lskk.org
+
+5. Kembalikan dependencies dari `konfigurasi Composer untuk Drupal`_, caranya: ::
+
+    composer -vvv install
+
+6. Tentukan bagaimana ingin mengakses website tersebut di local, misalnya ``lskk.org.amanahwin``.
    Maka jalankan Notepad/Notepad++ sebagai admin, buka file ``C:\Windows\System32\drivers\etc\hosts``, lalu tambahkan di bagian bawah: ::
 
     127.0.0.1	lskk.org.amanahwin
 
-4. Edit file ``C:\xampp\apache\conf\extra\httpd-vhosts.conf`` lalu tambahkan: ::  
+7. Edit file ``C:\xampp\apache\conf\extra\httpd-vhosts.conf`` lalu tambahkan: ::  
 
     NameVirtualHost *:80
     <VirtualHost *:80>
@@ -101,9 +110,9 @@ Bila *source code* situs sudah ada, contoh *source code* website http://www.lskk
         </Directory>
     </VirtualHost>
 
-5. Jalankan *XAMPP Control Panel* dan re-Start *Apache*.
+8. Jalankan *XAMPP Control Panel* dan re-Start *Apache*.
     Start *MySQL*.
-6. Cek website Drupal dapat diakses di http://lskk.org.amanahwin/
+9. Cek website Drupal dapat diakses di http://lskk.org.amanahwin/
     Harusnya menampilkan halaman instalasi.
     Language: pilih English
     Profile: pilih Standard
