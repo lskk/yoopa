@@ -16,7 +16,7 @@ Baik untuk situs baru maupun situs yang sudah ada, membutuhkan XAMPP_ dan Compos
     opcache.enable=1
 
 3. Unduh dan jalankan `Composer Installer`_.
-   (Di lingkungan jaringan ITB, Anda akan memerlukan setting proxy saat menjalankan _Composer Installer_).
+   (Di lingkungan jaringan ITB, Anda akan memerlukan setting proxy saat menjalankan *Composer Installer*).
 
 .. _XAMPP: www.apachefriends.org/en/xampp-windows.html
 .. _Composer: https://www.drupal.org/node/2404989
@@ -71,8 +71,6 @@ Untuk membuat situs baru, langkahnya sama dengan `membuat situs Drupal baru`_.
     Database user: ``root``
     Database password: (kosong/sesuai konfigurasi XAMPP)
 
-.. konfigurasi Composer untuk Drupal: https://www.drupal.org/node/2404989
-
 Mengembangkan Situs yang Sudah Ada
 ----------------------------------
 
@@ -86,7 +84,7 @@ Bila *source code* situs sudah ada, contoh *source code* website http://www.lskk
     C:
     cd \xampp\htdocs\lskk.org
 
-5. Kembalikan dependencies dari `konfigurasi Composer untuk Drupal`_, caranya: ::
+5. Kembalikan *dependencies* dari `konfigurasi Composer untuk Drupal`_, caranya: ::
 
     composer -vvv install
 
@@ -125,6 +123,7 @@ Mengembangkan Menggunakan Cloud IDE
 
 TODO
 
+.. _konfigurasi Composer untuk Drupal: https://www.drupal.org/node/2404989
 .. _membuat situs Drupal baru: https://www.drupal.org/documentation/install/download
 .. _Drupal 8.x: https://www.drupal.org/project/drupal
 .. _TortoiseGit: https://tortoisegit.org

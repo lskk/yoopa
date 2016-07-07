@@ -6,7 +6,7 @@
 Yoopa - Dokumentasi
 =================================
 
-Yoopa adalah *content management system* berbasis Drupal untuk laboratorium penelitian, subproyek dari Vidyanusa_ dari `LSKK ITB`_.
+Yoopa adalah *content management system* berbasis Drupal untuk laboratorium penelitian, subproyek dari Vidyanusa_ dari `LSKK ITB`_. Drupal 8 sendiri adalah CMS berbasis Symfony 2 framework.
 Sebenarnya Yoopa diimplementasikan sebagai seperangkat *Drupal modules* dan konfigurasi Drupal, jadi bukan CMS baru yang terpisah.
 
 Yoopa diprakarsai oleh `Putu Hendra McHen`_ (LinkedIn_), `Agus Seputra`_, dan `Artha Pico`_. Versi 2.0 dilanjutkan oleh `Hendy Irawan`_.
@@ -35,14 +35,15 @@ Yoopa terdiri dari 5 komponen yaitu:
 
 Dokumentasi Yoopa ada di http://yoopa.readthedocs.io/id/latest/, yang merupakan hasil *build* otomatis dari repository GitHub dokumentasi kolaboratif di https://github.com/lskk/yoopa .
 
-Contents:
+Daftar Isi:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    sejarah
    instalasi
    kustomisasi-dasar
+   development
 
 
 Indices and tables
