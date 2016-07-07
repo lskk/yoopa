@@ -183,7 +183,7 @@ core/modules/node/templates/node.html.twig
     </article>
 
 Blocks
------=
+------
 
 Pattern: ``block--[module|-delta]].html.twig``
 Base template: ``block.html.twig`` (base location: ``core/modules/block/templates/block.html.twig``)
