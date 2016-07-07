@@ -25,7 +25,9 @@ Baik untuk situs baru maupun situs yang sudah ada, membutuhkan XAMPP_ dan Compos
 Membuat Situs Baru
 ------------------
 
-Untuk membuat situs baru, langkahnya sama dengan `membuat situs Drupal baru`_.
+Untuk membuat situs baru, langkahnya sama dengan `installing Drupal`_.
+
+TODO: Gunakan https://github.com/drupal-composer/drupal-project, sepertinya ini lebih baik karena: Composer by default, Drupal Core dapat diupdate via Composer, support drush, support DrupalConsole.
 
 1. Unduh `Drupal 8.x`_ *recommended release* terbaru
 2. Extract ke folder sementara, misalnya ``D:\tmp``.
@@ -124,6 +126,6 @@ Mengembangkan Menggunakan Cloud IDE
 TODO
 
 .. _konfigurasi Composer untuk Drupal: https://www.drupal.org/node/2404989
-.. _membuat situs Drupal baru: https://www.drupal.org/documentation/install/download
+.. _installing Drupal: https://www.drupal.org/documentation/install/download
 .. _Drupal 8.x: https://www.drupal.org/project/drupal
 .. _TortoiseGit: https://tortoisegit.org
